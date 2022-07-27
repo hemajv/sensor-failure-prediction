@@ -1,0 +1,16 @@
+format: jb-book
+root: README
+parts:
+  - caption: Synthetic Data Generator
+    chapters:
+    - file: synthetic-data-generator/1_sdv-pivoting-data.ipynb
+    - file: synthetic-data-generator/2_test-pivoted-model.ipynb
+    - file: synthetic-data-generator/3_sdv-model-per-sensor.ipynb
+  - caption: Anomaly Prediction
+    chapters:
+    - file: anomaly-prediction/README
+  - caption: Anomaly Detector
+    chapters:
+    - file: user_demo/config
+    - file: user_demo/connect
+    - file: user_demo/create_table
